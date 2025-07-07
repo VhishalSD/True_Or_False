@@ -1,0 +1,5 @@
+/Users/vhishal/Projects/True_Or_False/True_Or_False/obj/Debug/net7.0/True_Or_False.csproj.AssemblyReference.cache
+/Users/vhishal/Projects/True_Or_False/True_Or_False/obj/Debug/net7.0/True_Or_False.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vhishal/Projects/True_Or_False/True_Or_False/obj/Debug/net7.0/True_Or_False.AssemblyInfoInputs.cache
+/Users/vhishal/Projects/True_Or_False/True_Or_False/obj/Debug/net7.0/True_Or_False.AssemblyInfo.cs
+/Users/vhishal/Projects/True_Or_False/True_Or_False/obj/Debug/net7.0/True_Or_False.csproj.CoreCompileInputs.cache
