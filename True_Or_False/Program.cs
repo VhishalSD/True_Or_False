@@ -5,20 +5,26 @@ namespace TrueOrFalse
     class Program
     {
         static void Main(string[] args)
-        {   
+        {
             Console.WriteLine("Welcome to 'True or False?'\nPress Enter to begin:");
             string entry = Console.ReadLine();
             Tools.SetUpInputStream(entry);
 
-            string[] questions = { "The sun is a star", "Water boils at 100 degrees Celsius", "Cats can fly" };
+            string[] questions = {
+            "The sun is a star",
+            "Water boils at 100 degrees Celsius",
+            "Cats can fly",
+            "Earth is the third planet from the sun",
+            "Bananas are vegetables"
+            };
 
-            bool[] answers = { true, true, false };
+            bool[] answers = { true, true, false, true, false };
 
             bool[] responses = new bool[questions.Length];
 
             if (questions.Length != answers.Length)
             {
-                Console.WriteLine("Warning! x doesn't equal y.");
+                Console.WriteLine($"Warning! questions has {questions.Length} items, but answers has {answers.Length}.");
             }
 
             int askingIndex = 0;
@@ -66,5 +72,4 @@ namespace TrueOrFalse
         }
     }
 }
-
 
